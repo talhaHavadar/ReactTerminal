@@ -187,8 +187,8 @@ class App extends Component {
     ls: () => {
       const cmd = this.state.prompt_text.replace(/\s+/g, " ");
       if(this.checkSecondParameter(cmd, "ls")) return;
-      const folders = Object.keys(this.state.cfs.children).filter(folder => folder);
-      this.createNewLine(folders.join("   "), "cout", "break-none");
+      const folders = Object.keys(this.state.cfs.children).map(key => `<span class="type-${this.state.cfs.children[key].type}">${key}</span>`);
+      this.createNewLine(folders.join("&#09;"), "cout", "break-none");
     },
     cd: () => {
       const cmd = this.state.prompt_text.replace(/\s+/g, " ");
