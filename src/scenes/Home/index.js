@@ -3,58 +3,17 @@ import "./Home.css";
 import Line from "../../components/Line";
 import Toolbar from "../../components/Toolbar";
 import fs from "../../fs.json"
+import { version } from "../../package.alias.json";
 
 class App extends Component {
 
   constructor() {
     super();
-
-    this.fs = {
-      type: "directory",
-      children: {
-        "about.txt": {
-          type: "file",
-          src: "/files/aboutme.txt"
-        },
-        "awards.txt": {
-          type: "file",
-          src: "/files/awards.txt"
-        },
-        blog: {
-          type: "directory",
-          children: {
-            last_article: {
-              type: "file",
-              src: "/files/blog/last_article.txt"
-            }
-          }
-        },
-        "contact.txt": {
-          type: "file",
-          src: "/files/contact.txt"
-        },
-        "credits.txt": {
-          type: "file",
-          src: "/files/credits.txt"
-        },
-        "github.txt": {
-          type: "file",
-          src: "/files/github.txt"
-        },
-        "projects.txt": {
-          type: "file",
-          src: "/files/projects.txt"
-        },
-        "skills.txt": {
-          type: "file",
-          src: "/files/skills.txt"
-        },
-      }
-    };
     this.handleKeyDown = this.handleKeyDown.bind(this);
     this._promptInput = this._cursor = this._terminal_body = this._terminal_body_container = undefined;
 
     this.state = {
+      infoText: `ReactTerminal, version ${version}-release\nLinux Ubuntu style terminal with React.JS\n`,
       settings: {
         computer_name: "tchavadar.com",
         user_name: "guest",
@@ -109,7 +68,7 @@ class App extends Component {
         let slash = this.is_dir(this.state.cfs.children[key]) ? "/" : "";
         return `<span class="type-${this.state.cfs.children[key].type}">${key}${slash}</span>`
       });
-      this.cout(dirs.join("&#09;"), "break-none");
+      this.cout(dirs.join("\t"), "break-none");
     },
     cd: (sudo, input) => {
       if(input === "cd" || input === "cd ") { this.printCommandLine(); return; }
@@ -202,6 +161,16 @@ class App extends Component {
   }
 
   componentDidMount() {
+    console.log(this.state.infoText);
+
+    this.setState({ previousLines: [{
+      type: "cout",
+      id: 1,
+      pwd: "~/",
+      text: this.state.infoText,
+      breakWord: false
+    }]});
+
     this._promptInput = document.querySelector(".prompt-input");
     this._cursor = document.querySelector(".prompt-cursor");
     this._terminal_body_container = document.querySelector(".terminal-body-container");

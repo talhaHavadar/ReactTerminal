@@ -35,6 +35,9 @@ body {
 }
 */
 
+.terminal a {
+  color: aqua;
+}
 
 .menu {
   position: absolute;
@@ -140,6 +143,9 @@ body {
   margin-left: 8px;
   word-break: break-all;
   white-space: pre-wrap;
+}
+.terminal-prompt:first-child .prompt-text {
+  color: #0E9591;
 }
 .prompt-input {
   width: 0;
