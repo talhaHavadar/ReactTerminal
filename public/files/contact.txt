@@ -1,4 +1,4 @@
-| Email: havadartalha@gmail.com
-| LinkedIn: https://www.linkedin.com/in/talha-can-havadar-536b76b7
-| GitHub: https://github.com/talhaHavadar
-| Twitter: https://twitter.com/talhahavadar
+| Email: <a href="mailto:havadartalha@gmail.com">havadartalha@gmail.com</a>
+| LinkedIn: <a href="https://www.linkedin.com/in/talha-can-havadar-536b76b7" target="_blank">https://www.linkedin.com/in/talha-can-havadar-536b76b7</a>
+| GitHub: <a href="https://github.com/talhaHavadar" target="_blank">https://github.com/talhaHavadar</a>
+| Twitter: <a href="https://twitter.com/talhahavadar" target="_blank">https://twitter.com/talhahavadar</a>
