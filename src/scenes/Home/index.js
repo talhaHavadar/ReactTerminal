@@ -3,6 +3,7 @@ import "./Home.css";
 import Line from "../../components/Line";
 import Toolbar from "../../components/Toolbar";
 import fs from "../../fs.json"
+import { FSEntry } from "../../enums";
 import { version } from "../../package.alias.json";
 
 class App extends Component {
@@ -312,8 +313,8 @@ class App extends Component {
   trim = str => str.trimStart().trimEnd();
   removeSpaces = text => text.replace(/\s+/g, " ").trim();
 
-  is_dir = obj => !!(obj && obj.type === "directory");
-  is_file = obj => !!(obj && obj.type === "file");
+  is_dir = obj => !!(obj && FSEntry.parse(obj.type) === FSEntry.DIRECTORY);
+  is_file = obj => !!(obj && FSEntry.parse(obj.type) === FSEntry.FILE);
 
   printCommandLine = () => this.cin(this.state.prompt_text);
   handleInputChange = (e) => this.setState({ prompt_text: e.target.value });
