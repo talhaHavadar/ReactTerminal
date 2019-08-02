@@ -1,37 +1,37 @@
 | Embedded Systems Projects in ASELSAN - C/C++, Python |2018-.|
 
 | Base.be & Base Brandings (Development) - Java, Spring, AEM, AngularJS |2017-2018|
-  ==> https://www.base.be/en/private.html
+  ==> <a href="https://www.base.be/en/private.html">https://www.base.be/en/private.html</a>
 
 | MyAudi.be & MyNewAudi.be (Maintenance & Development) - Java, AEM, AngularJS |2016-2017|
-  ==> http://www.mynewaudi.be/content/mynewaudi.html
+  ==> <a href="http://www.mynewaudi.be/content/mynewaudi.html">http://www.mynewaudi.be/content/mynewaudi.html</a>
 
 | Self Driving Car (Thesis) - Python, C++, Java |2017|
-  ==> https://github.com/talhaHavadar?tab=repositories&q=thesis
+  ==> <a href="https://github.com/talhaHavadar?tab=repositories&q=thesis">https://github.com/talhaHavadar?tab=repositories&q=thesis</a>
 
 | Ofisbook/Emlakzon.com - Laravel5, PHP |2017|
-  ==> http://ofisbook.herokuapp.com/
+  ==> <a href="http://ofisbook.herokuapp.com/">http://ofisbook.herokuapp.com/</a>
 
 | Spoileral.com API - PHP |2016|
-  ==> http://www.spoileral.com/
+  ==> <a href="http://www.spoileral.com/">http://www.spoileral.com/</a>
 
 | Izmir Bisim - Android |2016|
-  ==> https://play.google.com/store/apps/details?id=com.scorptech.izmirbisim
+  ==> <a href="https://play.google.com/store/apps/details?id=com.scorptech.izmirbisim">https://play.google.com/store/apps/details?id=com.scorptech.izmirbisim</a>
 
 | Superm (Game) - Unity[C#] |2016|
-  ==> https://play.google.com/store/apps/details?id=com.scorptech.superm
+  ==> <a href="https://play.google.com/store/apps/details?id=com.scorptech.superm">https://play.google.com/store/apps/details?id=com.scorptech.superm</a>
 
 | DEU Yemek(Refectory App.) - Android |2014|
-  ==> https://play.google.com/store/apps/details?id=com.deu.talha.deuyemek
+  ==> <a href="https://play.google.com/store/apps/details?id=com.deu.talha.deuyemek">https://play.google.com/store/apps/details?id=com.deu.talha.deuyemek</a>
 
 | Cinecity Web App. - NodeJS, OracleDB |2015|
-  ==> https://github.com/talhaHavadar/CineCityWeb
+  ==> <a href="https://github.com/talhaHavadar/CineCityWeb">https://github.com/talhaHavadar/CineCityWeb</a>
 
 | GBJ Atolye - Android |2015|
-  ==> https://play.google.com/store/apps/details?id=com.gbj.atolye
+  ==> <a href="https://play.google.com/store/apps/details?id=com.gbj.atolye">https://play.google.com/store/apps/details?id=com.gbj.atolye</a>
 
 | Fawori En Yakın Bayii - Android |2015|
-  ==> https://play.google.com/store/apps/details?id=com.gbj.enyakinbayifawori
+  ==> <a href="https://play.google.com/store/apps/details?id=com.gbj.enyakinbayifawori">https://play.google.com/store/apps/details?id=com.gbj.enyakinbayifawori</a>
 
 | Filli Boya En Yakın Bayii - Android |2015|
-  ==> https://play.google.com/store/apps/details?id=com.gbj.enyakinbayifilliboya
+  ==> <a href="https://play.google.com/store/apps/details?id=com.gbj.enyakinbayifilliboya">https://play.google.com/store/apps/details?id=com.gbj.enyakinbayifilliboya</a>
